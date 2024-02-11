@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Client Side Codepen-like</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<stylus id="root">
+  <iframe id="iframe"></iframe>
+  <div id="editor">
+    <ul id="selectors">
+      <li class="active" data-select="pug"></li>
+      <li data-select="stylus"></li>
+      <li data-select="javascript"></li>
+    </ul>
+    <div id="codes">
+      <div class="active" data-type="pug"></div>
+      <div data-type="stylus"></div>
+      <div data-type="javascript"></div>
+    </div>
+  </div>
+</stylus>
+<!-- partial -->
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/67868/stylus.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jade/1.11.0/jade.min.js'></script>
+<script src='https://unpkg.com/monaco-editor@0/min/vs/loader.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
