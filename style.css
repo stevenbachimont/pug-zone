@@ -5,7 +5,7 @@
 }
 #root {
   background-color: #000;
-  color: #fff;
+  color: #fc00b0;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -39,14 +39,16 @@
   padding: 0.5em 1em;
   margin: 0 0.1em;
   background-color: #444;
-  color: #aaa;
+  color: #e0029a;
+
 }
 #selectors li:after {
   content: attr(data-select);
 }
 #selectors li.active {
   background-color: #888;
-  color: #fff;
+  color: #fa5af2;
+  border-radius: 10px;
 }
 #codes {
   flex-grow: 1;
@@ -69,7 +71,7 @@
   right: 0;
   font-size: 5em;
   font-family: monospace;
-  color: rgba(68,68,68,0.5);
+  color: rgba(122, 122, 122, 0);
   font-style: italic;
   margin: 0.25em;
   pointer-events: none;
