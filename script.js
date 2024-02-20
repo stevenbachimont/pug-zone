@@ -1,7 +1,7 @@
 console.clear();
 const localStoragePrefix = 'apmJwP';
 const defaultValues = {
-  pug: `                                                                                                  
+  pug: `                                                                                                                                                                                               
 #wrapper
 \t.sub
 \t\t.sub
@@ -34,12 +34,16 @@ const defaultValues = {
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t.sub
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t.sub
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t.sub
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t.sub
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t.sub
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t.sub
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t.sub
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t.sub`,
-  stylus: `#wrapper, .sub {
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t.sub
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t.sub`,
+  stylus: `body {
+\tbackground: #060000;
+}
+
+#wrapper, .sub {
 \tbackground: #ff73a0;
 \toverflow: hidden;
 \tbox-shadow: 0px 0px 20px 1px hsla(200, 50%, 10%, 1) inset;
@@ -47,7 +51,6 @@ const defaultValues = {
 }
 
 #wrapper {
-
 \twidth: 500px;
 \theight: 500px;
 \tmargin: calc(50vh - 250px) calc(50vw - 250px);
